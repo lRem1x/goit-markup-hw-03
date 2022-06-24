@@ -19,12 +19,14 @@ body {
     font-style: normal;
     color: var(--text-color-gray);
     letter-spacing: 0.03em;
+    margin: 0;
 }
 
 /* header */
 
 .header {
     background-color: var(--white-color);
+
 }
 
 /* logo webstudio */
@@ -69,6 +71,9 @@ body {
 /* header address */
 
 .header-list {
+    display: inline-block;
+    min-width: 135px;
+    height: 16px;
     list-style: none;
 }
 
@@ -92,6 +97,8 @@ body {
 
 .hero {
     background-color: #2f303a;
+    text-align: center;
+
 }
 
 .hero-title {
@@ -101,6 +108,15 @@ body {
     letter-spacing: 0.06em;
     color: var(--white-color);
     text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    padding-left: 452px;
+    padding-right: 452px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+   
+    
 }
 
 .hero-btn {
@@ -111,6 +127,10 @@ body {
     letter-spacing: 0.06em;
     background-color: #2196f3;
     color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    
 }
 
 .hero-btn:hover,
@@ -276,3 +296,16 @@ body {
     font-size: 16px;
     line-height: 1.87;
     color: var(--text-color-gray);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-hero {
+    width: 1600px;
+    height: 600px;
+}
