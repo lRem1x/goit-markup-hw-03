@@ -232,12 +232,14 @@ ul {
 
 .work-section {
     background-color: var(--white-color);
+    padding-bottom: 94px;
 
 }
 
 .work-list {
     list-style: none;
     display: flex;
+    padding-left: 0;
 }
 
 .work-item {
@@ -249,18 +251,21 @@ ul {
 
 .team-section {
     background-color: #f5f4fa;
-    padding-top: 50px;
+    padding-top: 94px;
     padding-bottom: 94px;
     text-align: center;
 }
 
 .team-item {
-    display: inline-block;
     margin-left: 0;
+    margin-right: 30px;
 }
 
 .team-list {
     list-style: none;
+    padding-left: 0;
+    display: flex;
+    
 }
 
 .team-title {
@@ -276,6 +281,12 @@ ul {
     font-size: 16px;
     line-height: 1.18;
     color: var(--text-color-gray);
+}
+
+.team-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
 
 /* Footer */
@@ -349,6 +360,8 @@ ul {
     border-radius: 2px;
     justify-content: center;
     margin-right: 8px;
+    margin-bottom: 50px;
+    padding-left: 0;
     
 }
 
@@ -362,8 +375,10 @@ ul {
     border-radius: 4px;
     margin-right: 8px;
     border: 1px solid #F5F4FA;
-    margin-bottom: 56px;
+    padding: 6px 22px 6px 22px;
+   
 }
+
 
 .portfolio-button:hover,
 .portfolio-button:focus {
