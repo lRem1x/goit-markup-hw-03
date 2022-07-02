@@ -42,6 +42,8 @@ ul {
 .header {
     background-color: var(--white-color);
     border-bottom: #ECECEC 1px solid;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* logo webstudio */
@@ -67,13 +69,12 @@ ul {
 .nav-list {
     list-style: none;
     display: flex;
+    padding-left: 0;
 }
 
 .main-nav {
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .nav-item {
@@ -243,8 +244,7 @@ ul {
 }
 
 .work-item {
-    display: inline-block;
-    margin-right: 15px;
+    margin-right: 30px;
 }
 
 /* Our Team Section */
@@ -363,6 +363,11 @@ ul {
     margin-bottom: 50px;
     padding-left: 0;
     
+    
+}
+
+.btn-item {
+    margin-right: 8px;
 }
 
 .portfolio-button {
@@ -373,7 +378,6 @@ ul {
     background-color: #f5f4fa;
     color: var(--text-color-black);
     border-radius: 4px;
-    margin-right: 8px;
     border: 1px solid #F5F4FA;
     padding: 6px 22px 6px 22px;
    
